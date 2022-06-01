@@ -7,6 +7,7 @@ Language Overview and Practice
 Inline JS
 
 adding within the HTML element
+
 <button onclick="alert('hello world')">click me</button>
 
 Internal JS
