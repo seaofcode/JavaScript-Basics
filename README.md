@@ -3,3 +3,5 @@
 Language Overview and Practice
 
 Comments and Statements
+
+Variables
