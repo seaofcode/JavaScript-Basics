@@ -79,3 +79,5 @@ const people = 3;\
 const amount = slices % children;
 
 console.log(amount);
+
+[Numbers Challenge #3](https://web-mjp-javascriptbasics.netlify.app/html-challenges/numbers.html)
