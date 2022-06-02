@@ -7,7 +7,7 @@
 ### Comments and Statements
 
 // document.write('hello world');\
-// console.log('hello world');
+console.log('hello world');
 
 ### Variables
 
@@ -35,10 +35,10 @@ camelCase or underscore
 String Concatenation - combine string values\
 `` - backticks (template strings) easier option
 
-// const firstName = 'shake';\
-// const lastName = 'and bake';\
-// let fullName = firstName + ' ' + lastName;
+const firstName = 'shake';\
+const lastName = 'and bake';\
+let fullName = firstName + ' ' + lastName;
 
-// console.log('hello there ' + fullName);
+console.log('hello there ' + fullName);
 
 [String Challenge #2](https://web-mjp-javascriptbasics.netlify.app/html-challenges/string.html)
