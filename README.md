@@ -2,6 +2,8 @@
 
 ## Language Overview and Practice
 
+[Netlify Deployment - JavaScript Basics](https://web-mjp-javascriptbasics.netlify.app/index.html)
+
 ### Comments and Statements
 
 // document.write('hello world');\
