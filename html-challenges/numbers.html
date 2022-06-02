@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Challenge</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../normalize.css">
+</head>
+
+<body>
+    <h1>JavaScript Number Challenge</h1>
+    <a href="../index.html">Home</a>
+    <hr>
+    <h2>Numbers #3</h2>
+    <ol>
+        <li>create "score1", "score2", "score3" variables and
+        assign values (0-100)</li>
+        <li>calculate total score and average score, and assign them to the variables.</li>
+        <li>log total score and average score</li>
+        <li>create "plates" variable and assign 20</li>
+        <li>create "people" variable and assign 7</li>
+        <li>calculate remaining plates and assign to the variable</li>
+        <li>add one to remaining plates</li>
+        <li>create message variable and display 'There are (your value goes here) plates available' - string concatenation</li>
+        <li>log message</li>
+    </ol>
+    <hr>
+    <pre>
+        // Steps 1 - 3 
+        const score1 = 25;
+        const score2 = 50;
+        const score3 = 75;
+        
+        const total = score1 + score2 + score3;
+        const average = total / 3;
+        
+        console.log(total);
+        console.log(average);
+        
+        document.write(total);
+        document.write(average);
+
+        // Total = 150
+        // Average = 50
+
+        // Steps 4 - 9
+        const plates = 20;
+        const people = 7;
+        
+        let remainingPlates = plates & people;
+        remainingPlates++;
+        
+        const displayMessage = 'There are ' + remainingPlates + ' plates available';
+        console.log(displayMessage);
+    </pre>
+    <!-- Challenges -->
+    <script src="../js-challenges/03-numbers.js"></script>
+</body>
+
+</html>
