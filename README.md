@@ -27,3 +27,5 @@ no keywords\
 cannot start with number\
 case sensitive - fullname vs Fullname\
 camelCase or underscore
+
+[Variable Challenge #1](https://web-mjp-javascriptbasics.netlify.app/html-challenges/vars.html)
