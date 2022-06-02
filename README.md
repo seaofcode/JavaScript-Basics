@@ -29,3 +29,16 @@ case sensitive - fullname vs Fullname\
 camelCase or underscore
 
 [Variable Challenge #1](https://web-mjp-javascriptbasics.netlify.app/html-challenges/vars.html)
+
+### Strings
+
+String Concatenation - combine string values\
+`` - backticks (template strings) easier option
+
+// const firstName = 'shake';\
+// const lastName = 'and bake';\
+// let fullName = firstName + ' ' + lastName;
+
+// console.log('hello there ' + fullName);
+
+[String Challenge #2](https://web-mjp-javascriptbasics.netlify.app/html-challenges/string.html)
