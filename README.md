@@ -81,3 +81,30 @@ const amount = slices % children;
 console.log(amount);
 
 [Numbers Challenge #3](https://web-mjp-javascriptbasics.netlify.app/html-challenges/numbers.html)
+
+### Data Types - 7 Total
+
+Primitive - String, Number, Boolean, Null, Undefined, Symbol
+Object - Arrays, Functions, Objects
+
+typeof - operator (typeof variable) (typeof vaule)
+
+String
+const text = 'my text';
+Number
+const myInt = 23;
+Boolean
+let isGrounded = true;
+Null
+const result = null;
+Undefined
+let name;
+Symbol(ES6)
+
+### Arrays, Functions and Objects
+
+Arrays - [], 0 index based
+
+const partyMembers = ['Jooker', 'Olla', 'Kulu', 'Falldom'];
+
+console.log(partyMembers[0]);
