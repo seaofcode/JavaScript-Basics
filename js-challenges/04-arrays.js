@@ -5,3 +5,10 @@
 // 3. assign first fruit to the variable
 // 4. re-assign last array item to the actual fruit
 // 5. log both first fruit variable and entire fruits array
+
+const fruits = ['apple', 'grapes', 'pears','oranges', 'plums', 12];
+const firstFruit = fruits[0];
+fruits[5] = 'lemon';
+
+console.log(firstFruit);
+console.log(fruits);
