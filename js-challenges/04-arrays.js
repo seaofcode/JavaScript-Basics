@@ -12,3 +12,5 @@ fruits[5] = 'lemon';
 
 console.log(firstFruit);
 console.log(fruits);
+
+document.write(firstFruit, fruits);

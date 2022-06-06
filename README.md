@@ -108,3 +108,5 @@ Arrays - [], 0 index based
 const partyMembers = ['Jooker', 'Olla', 'Kulu', 'Falldom'];
 
 console.log(partyMembers[0]);
+
+[Arrays Challenge #4](https://web-mjp-javascriptbasics.netlify.app/html-challenges/arrays.html)
