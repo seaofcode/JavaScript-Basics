@@ -110,3 +110,54 @@ const partyMembers = ['Jooker', 'Olla', 'Kulu', 'Falldom'];
 console.log(partyMembers[0]);
 
 [Arrays Challenge #4](https://web-mjp-javascriptbasics.netlify.app/html-challenges/arrays.html)
+
+### Functions
+
+// Declaration\
+function hello() {\
+console.log('hello there');\
+console.log('hi guys');\
+console.log('hey everyone');\
+}
+
+// Invoke\
+hello();
+
+// Parameters and Arguments\
+function helloAgain(name) {\
+console.log('Hello there '+ name);\
+}
+
+// name passed as parameter, string as argument\
+helloAgain('Jeffy');\
+helloAgain('Amanda');
+
+// Function - return
+
+// Declare Variables\
+const wallHeight = 80;\
+const wallWidth = 100;
+
+// Declare function, take value from argument, calculate into newValue var\
+// return value\
+function calculate(value) {\
+const newValue = value \* 2.54;\
+console.log('the value in cm is : ' + newValue + ' cm');\
+return value;\
+}
+
+// pass in wallWidth, wallHeight arguments, store returned value in new var\
+const width = calculate(wallWidth);\
+const height = calculate(wallHeight);
+
+// add results into an Array, console log results\
+const dimensions = [width, height];\
+console.log(dimensions);
+
+// Function Expressions\
+const add = function (num1, num2) {\
+return num1 + num2;\
+}
+
+const sumValues = [add(5, 5), add(15, 2)];\
+console.log(sumValues);
