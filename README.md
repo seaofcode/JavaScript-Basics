@@ -161,3 +161,5 @@ return num1 + num2;\
 
 const sumValues = [add(5, 5), add(15, 2)];\
 console.log(sumValues);
+
+[Functions Challenge #5](https://web-mjp-javascriptbasics.netlify.app/html-challenges/functions.html)
