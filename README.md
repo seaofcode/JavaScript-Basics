@@ -163,3 +163,20 @@ const sumValues = [add(5, 5), add(15, 2)];\
 console.log(sumValues);
 
 [Functions Challenge #5](https://web-mjp-javascriptbasics.netlify.app/html-challenges/functions.html)
+
+### Objects
+
+const person = {
+name: 'john',
+lastName: 'peters',
+age:40,
+education: false,
+married: true,
+siblings: ['anna', 'susan', 'peters'],
+greeting: function () {
+console.log('Hello my name is John');
+},
+};
+
+console.log(person.name);
+person.greeting();
