@@ -180,3 +180,5 @@ console.log('Hello my name is John');
 
 console.log(person.name);
 person.greeting();
+
+[Objects Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/objects.html)
