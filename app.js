@@ -56,3 +56,21 @@ if (name === 'bob' && age === 33) {
     console.log('this is not bob');
 }
 
+// Switch 
+// dice values : 1 - 6
+
+const dice = 1;
+
+switch (dice) {
+    case 1:
+        console.log('1'); 
+        break;  
+    case 2:
+        console.log('2');
+        break;
+    case 3:
+        console.log('3');
+        break;
+    default:
+        console.log('did not roll');
+}
