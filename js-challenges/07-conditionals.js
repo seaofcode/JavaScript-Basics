@@ -22,10 +22,13 @@ const person2 = {
 
 if (person1.age >= 18 && person1.status === 'resident') {
     console.log(person1.name + ' is 18 or older and a resident');
+} else {
+    console.log(person1.name + ' does not meet both requirements');
 }
-else if (person1.age >= 18 && person1.status == 'tourist') {
-    console.log(person1.name + ' is 18 or older but not a resident');
+
+if (person2.age >= 18 && person2.status === 'resident') {
+    console.log(person2.name + ' is 18 or older and a resident');
+} else {
+    console.log(person2.name + ' does not meet both requirements');
 }
-else {
-    console.log(person1.name + ' is under 18 and not a resident');
-}
+
