@@ -299,3 +299,31 @@ console.log('and the number is :' + i);
 for (let number = 11; number >= 0; number--) {
 console.log('and the number is :' + number);
 }
+
+### String Properties and Methods
+
+// String properites and methods
+// wrapper String Object
+let text = ' Joe Buckwheat';
+let result = text.length;
+
+console.log(result);
+console.log(text.toLowerCase());
+console.log(text.toUpperCase());
+console.log(text.charAt(text.length - 1));
+console.log(text.indexOf('w'));
+console.log(text.trim());
+console.log(text.startsWith(' Joe'));
+console.log(text.trim().toLowerCase().startsWith('joe'));
+console.log(text.includes('eat'));
+console.log(text.slice(0, 5));
+console.log(text.slice(-1));
+
+// Template Literals - ES6+
+// Backtick characters ``
+// Interpolation ${} - insert expression(value)
+
+const name = 'dewey';
+const age = '23';
+const value = `Hey it's ${name} and he is ${age} years old and here is an expression ${4 + 6}`;
+console.log(value);
