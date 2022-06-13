@@ -263,3 +263,39 @@ console.log('did not roll');
 }
 
 [Condtiontals Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/conditionals.html)
+
+### Loops
+
+// Loops
+// repeatedly run a block of code while the condition is true
+
+// while loop
+let amount = 10;
+
+while (amount > 0) {
+console.log('I have ' + amount + " dollars");
+amount--;
+}
+
+// do while loop
+// code block first, condition second
+// runs at least once
+
+let money = 0;
+
+do {
+console.log('You have ' + money + ' dollars');
+money++;
+} while (money < 10);
+
+// for loop
+// repeatedly run a block of code while condition is true
+
+let i;
+for (i = 0; i < 10; i++) {
+console.log('and the number is :' + i);
+}
+
+for (let number = 11; number >= 0; number--) {
+console.log('and the number is :' + number);
+}
