@@ -166,166 +166,166 @@ console.log(sumValues);
 
 ### Objects
 
-const person = {
-name: 'john',
-lastName: 'peters',
-age:40,
-education: false,
-married: true,
-siblings: ['anna', 'susan', 'peters'],
-greeting: function () {
-console.log('Hello my name is John');
-},
+const person = {\
+name: 'john',\
+lastName: 'peters',\
+age:40,\
+education: false,\
+married: true,\
+siblings: ['anna', 'susan', 'peters'],\
+greeting: function () {\
+console.log('Hello my name is John');\
+},\
 };
 
-console.log(person.name);
+console.log(person.name);\
 person.greeting();
 
 [Objects Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/objects.html)
 
 ### Conditionals
 
-// Conditional Statements
-// >, <, >=, <=, ==, ===, !=, !===
+// Conditional Statements\
+// >, <, >=, <=, ==, ===, !=, !===\
 // else if
 
 const value = true;
 
-if(value) {
-console.log("Statement is True");
+if(value) {\
+console.log("Statement is True");\
 }
 
-if (2 > 1 ) {
-console.log('2 is larger than 1');
-}
-else {
-console.log('If value is false');
+if (2 > 1 ) {\
+console.log('2 is larger than 1');\
+}\
+else {\
+console.log('If value is false');\
 }
 
-const num1 = 6;
-const num2 = 6;
+const num1 = 6;\
+const num2 = 6;\
 const result = num1 >= num2;
 
-if(num1 > num2) {
-console.log('first number is bigger than second');
-}
-else if (result) {
-console.log('first is equal to second');
-}
-else {
-console.log('second is bigger than first');
+if(num1 > num2) {\
+console.log('first number is bigger than second');\
+}\
+else if (result) {\
+console.log('first is equal to second');\
+}\
+else {\
+console.log('second is bigger than first');\
 }
 
 const newValue = false;
 
-if (!newValue) {
-console.log('Value is not True');
+if (!newValue) {\
+console.log('Value is not True');\
 }
 
-const num3 = 7;
+const num3 = 7;\
 const num4 = '7';
 
-const newResult = num3 == num4;
+const newResult = num3 == num4;\
 const newResult2 = num3 === num4;
 
-console.log(newResult); // True
+console.log(newResult); // True\
 console.log(newResult2); // False
 
-// Logical Operators
+// Logical Operators\
 // || - Or, && - AND, !
 
-const name = 'bob';
+const name = 'bob';\
 const age = 33;
 
-if (name === 'bob' && age === 33) {
-console.log('hello there bob');
-} else {
-console.log('this is not bob');
+if (name === 'bob' && age === 33) {\
+console.log('hello there bob');\
+} else {\
+console.log('this is not bob');\
 }
 
-// Switch
+// Switch\
 // dice values : 1 - 6
 
 const dice = 1;
 
-switch (dice) {
-case 1:
-console.log('1');
-break;  
- case 2:
-console.log('2');
-break;
-case 3:
-console.log('3');
-break;
-default:
-console.log('did not roll');
+switch (dice) {\
+case 1:\
+console.log('1');\
+break;\  
+ case 2:\
+console.log('2');\
+break;\
+case 3:\
+console.log('3');\
+break;\
+default:\
+console.log('did not roll');\
 }
 
 [Condtiontals Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/conditionals.html)
 
 ### Loops
 
-// Loops
+// Loops\
 // repeatedly run a block of code while the condition is true
 
-// while loop
+// while loop\
 let amount = 10;
 
-while (amount > 0) {
-console.log('I have ' + amount + " dollars");
-amount--;
+while (amount > 0) {\
+console.log('I have ' + amount + " dollars");\
+amount--;\
 }
 
-// do while loop
-// code block first, condition second
+// do while loop\
+// code block first, condition second\
 // runs at least once
 
 let money = 0;
 
-do {
-console.log('You have ' + money + ' dollars');
-money++;
+do {\
+console.log('You have ' + money + ' dollars');\
+money++;\
 } while (money < 10);
 
-// for loop
+// for loop\
 // repeatedly run a block of code while condition is true
 
-let i;
-for (i = 0; i < 10; i++) {
-console.log('and the number is :' + i);
+let i;\
+for (i = 0; i < 10; i++) {\
+console.log('and the number is :' + i);\
 }
 
-for (let number = 11; number >= 0; number--) {
-console.log('and the number is :' + number);
+for (let number = 11; number >= 0; number--) {\
+console.log('and the number is :' + number);\
 }
 
 ### String Properties and Methods
 
-// String properites and methods
-// wrapper String Object
-let text = ' Joe Buckwheat';
+// String properites and methods\
+// wrapper String Object\
+let text = ' Joe Buckwheat';\
 let result = text.length;
 
-console.log(result);
-console.log(text.toLowerCase());
-console.log(text.toUpperCase());
-console.log(text.charAt(text.length - 1));
-console.log(text.indexOf('w'));
-console.log(text.trim());
-console.log(text.startsWith(' Joe'));
-console.log(text.trim().toLowerCase().startsWith('joe'));
-console.log(text.includes('eat'));
-console.log(text.slice(0, 5));
+console.log(result);\
+console.log(text.toLowerCase());\
+console.log(text.toUpperCase());\
+console.log(text.charAt(text.length - 1));\
+console.log(text.indexOf('w'));\
+console.log(text.trim());\
+console.log(text.startsWith(' Joe'));\
+console.log(text.trim().toLowerCase().startsWith('joe'));\
+console.log(text.includes('eat'));\
+console.log(text.slice(0, 5));\
 console.log(text.slice(-1));
 
-// Template Literals - ES6+
-// Backtick characters ``
+// Template Literals - ES6+\
+// Backtick characters ``\
 // Interpolation ${} - insert expression(value)
 
-const name = 'dewey';
-const age = '23';
-const value = `Hey it's ${name} and he is ${age} years old and here is an expression ${4 + 6}`;
+const name = 'dewey';\
+const age = '23';\
+const value = `Hey it's ${name} and he is ${age} years old and here is an expression ${4 + 6}`;\
 console.log(value);
 
 [Strings Properties and Methods Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/stringpropmeth)
