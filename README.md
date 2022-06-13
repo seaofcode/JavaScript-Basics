@@ -327,3 +327,5 @@ const name = 'dewey';
 const age = '23';
 const value = `Hey it's ${name} and he is ${age} years old and here is an expression ${4 + 6}`;
 console.log(value);
+
+[Strings Properties and Methods Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/stringpropmeth)
