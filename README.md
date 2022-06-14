@@ -413,3 +413,21 @@ console.log({\
 
 const value = 1 < 0;\
 value ? console.log('true') : console.log('false');
+
+### Callback Funtions
+
+function morning(name) {\
+return `Good Morning ${name}`;\
+}\
+function afternoon(name) {\
+return `Good afternoon ${name}`;\
+}
+
+//Higher Order Function\
+function greet(name, callBack) {\
+const myName = 'Geno';\
+console.log(`${callBack(name)}, my name is ${myName}`);\
+}
+
+greet('Vittorio', morning);\
+greet('Salvatore', afternoon);
