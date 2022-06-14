@@ -329,3 +329,38 @@ const value = `Hey it's ${name} and he is ${age} years old and here is an expres
 console.log(value);
 
 [Strings Properties and Methods Challenge](https://web-mjp-javascriptbasics.netlify.app/html-challenges/stringpropmeth)
+
+### Array Properties and Methods
+
+let names = ['derek', 'joe', 'garry', 'juga', 'forest'];
+
+//length\
+console.log(names.length);\
+console.log(names[names.length - 1 ]);
+
+// concat\
+const lastNames = ['johnson', 'bella', 'stewards'];\
+const allNames = names.concat(lastNames);\
+console.log(allNames);\
+console.log(allNames.reverse());
+
+//unshift - add item to start of the array\
+allNames.unshift('jake');\
+console.log(allNames);
+
+//shift - delete item from start of the array\
+allNames.shift();\
+console.log(allNames);
+
+//push - add to end \
+allNames.push('jake');\
+console.log(allNames);
+
+//pop - delete from end\
+allNames.pop('jake');
+console.log(allNames);\
+
+//splice - mutates original array\
+const newNames = allNames.splice(2, 2);\
+console.log(newNames);\
+console.log(allNames);
