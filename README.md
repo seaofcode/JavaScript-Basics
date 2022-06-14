@@ -406,3 +406,10 @@ console.log({\
  gas: gasTotal,\
  food: foodTotal\
 });
+
+### ternary operator
+
+// condition ? (runs if true) : (runs if false)
+
+const value = 1 < 0;\
+value ? console.log('true') : console.log('false');
