@@ -465,3 +465,25 @@ return person.age;
 });
 
 console.log(ages);
+
+// filter
+// returns a new array
+// can manipulate the size of new array
+// returns based on condition
+
+const people = [
+{ name: 'Geno', age: 32, job: 'developer' },
+{ name: 'Salvatore', age: 34, job: 'developer' },
+{ name: 'Gianluigi', age: 28, job: 'designer' }
+];
+
+const youngPpl = people.filter(function(person) {
+return person.age <= 30;
+});
+
+const developers = people.filter(function(person) {
+return person.job === 'developer';
+});
+
+console.log(youngPpl);
+console.log(developers);
