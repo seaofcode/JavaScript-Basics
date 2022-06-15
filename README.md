@@ -431,3 +431,37 @@ console.log(`${callBack(name)}, my name is ${myName}`);\
 
 greet('Vittorio', morning);\
 greet('Salvatore', afternoon);
+
+### More Array Methods
+
+//forEach
+//does not return new array
+
+const people = [
+{ name: 'Geno', age: 32, job: 'front end' },
+{ name: 'Salvatore', age: 34, job: 'back end' },
+{ name: 'Gianluigi', age: 28, job: 'designer' }
+];
+
+function showPerson(person) {
+console.log(person.job.toUpperCase());
+}
+
+people.forEach(showPerson);
+
+// map
+// returns a new array
+// does not change size of original array
+// uses values from original array when making new one
+
+const people2 = [
+{ name: 'Geno', age: 32, job: 'front end' },
+{ name: 'Salvatore', age: 34, job: 'back end' },
+{ name: 'Gianluigi', age: 28, job: 'designer' }
+];
+
+const ages = people2.map(function(person) {
+return person.age;
+});
+
+console.log(ages);
