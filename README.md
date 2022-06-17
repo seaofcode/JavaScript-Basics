@@ -504,3 +504,24 @@ return person.id === 3;
 });
 
 console.log(person);
+
+// reduce
+// iterates, callback function
+// reduces to a single value - number, array, object
+// 1 parameter ('acc') - total of all calculations
+// 2 parameter ('curr')- current iteration/value
+
+const people = [
+{ name: 'Geno', age: 32, job: 'developer', id: 1, salary: 200},
+{ name: 'Salvatore', age: 34, job: 'developer', id: 2, salary: 300},
+{ name: 'Gianluigi', age: 28, job: 'designer', id: 3, salary: 400}
+];
+
+const total = people.reduce(function(acc, curr){
+console.log(`total ${acc}`);
+console.log(`current money : ${curr.salary}`);
+acc += curr.salary;
+return acc;
+});
+
+console.log(total);
