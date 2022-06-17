@@ -487,3 +487,20 @@ return person.job === 'developer';
 
 console.log(youngPpl);
 console.log(developers);
+
+// find
+// returns single instance
+// returns first match, if no match undefined
+// great for getting unique value
+
+const people = [
+{ name: 'Geno', age: 32, job: 'developer', id: 1 },
+{ name: 'Salvatore', age: 34, job: 'developer', id: 2},
+{ name: 'Gianluigi', age: 28, job: 'designer', id: 3}
+];
+
+const person = people.find(function(person) {
+return person.id === 3;
+});
+
+console.log(person);
