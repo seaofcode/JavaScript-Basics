@@ -6,6 +6,7 @@ const students = [
     {id: 1, name: 'jim', score: 93, favSubject: 'geography'}
 ];
 
+// map
 const updatedStudents = students.map(function(student)
 {
     student.role = 'student';
@@ -13,3 +14,12 @@ const updatedStudents = students.map(function(student)
 });
 
 console.log(updatedStudents);
+
+// filter
+const highScores = students.filter(function (student ) {
+    if (student.score >= 80){
+        return student;
+    }
+});
+
+console.log(highScores);
