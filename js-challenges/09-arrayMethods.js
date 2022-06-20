@@ -23,3 +23,20 @@ const highScores = students.filter(function (student ) {
 });
 
 console.log(highScores);
+
+// find
+
+const specificID = students.find(function(student){
+    return student.id === 1;
+});
+
+console.log(specificID);
+
+// Reduce
+
+const averageScore = students.reduce(function(scoresTotal, student){
+    return scoresTotal + student.score;
+}, 0) / students.length;
+
+console.log(averageScore);
+
